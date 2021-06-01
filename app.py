@@ -7,7 +7,7 @@ Created on Tue Jun  1 16:41:51 2021
 import streamlit as st
 import pickle
 model = pickle.load(open('rf_crop_prediction.pkl', 'rb'))
-st.markdown('<style>body{text-align:center;background-color:#66FF99;overflow:hidden;color:black;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
+st.markdown('<style>body{text-align:center;background-color:#66FF99;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
 st.title("Crop preidction")
 st.sidebar.title("Crop preidction")
 st.sidebar.image("ezgif.com-gif-maker (1).gif")
