@@ -9,7 +9,7 @@ import pickle
 model = pickle.load(open('rf_crop_prediction.pkl', 'rb'))
 st.markdown('<style>body{text-align:center;background-color:#66FF99;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
 st.title("Crop preidction")
-st.markdown("made by souravsing 💖")
+st.markdown("made by souravsing 😁")
 st.sidebar.title("Crop preidction")
 st.sidebar.image("ezgif.com-gif-maker (1).gif")
 st.sidebar.markdown("made by souravsing 💖")
