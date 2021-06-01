@@ -67,4 +67,5 @@ if st.button("predict"):
         prediction="coffee"
     elif prediction==22:
         prediction="muskmelon"
+    st.balloons()
     st.success("you should take {} crop".format(prediction))
